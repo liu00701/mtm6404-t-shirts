@@ -1,0 +1,14 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.card {
+  max-width: 200px;
+}
+
+.card label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
