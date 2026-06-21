@@ -46,7 +46,7 @@
             <p>{card.title}</p>
             <img src={"images/" + card.image} alt={card.title} width="80%" />
             <p>{card.price}</p>
-            <p>{card.stock <= 0 ? "Out of Stock" : card.stock}</p>
+            <p>{card.stock <= 0 ? "Out of Stock" : card.stock + " left!"}</p>
             <label>
               Amount:
               <input
